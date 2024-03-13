@@ -31,3 +31,20 @@ setup of the tailwind
 
 
     use npm run start to start
+
+
+
+
+
+
+
+
+
+
+    github
+
+    git init 
+    git add .
+    git commit -m "Deployment"
+    copy git remote link  -->git remote add origin https://github.com/Harniman-Singh/Razorpay_Clone.git
+    git push -u origin master
