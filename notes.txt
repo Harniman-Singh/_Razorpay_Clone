@@ -1,0 +1,50 @@
+tailwind is a framework 
+rapidly build modern websites without ever leaving your HTML.
+
+
+setup of the tailwind
+1-->    <script src="https://cdn.tailwindcss.com"></script> can use this link but suggestion will not come
+
+2--> tailwind actual setup
+    1 download node
+    2 go to tailwind and go to using postCSS
+     go to terminal --> write 
+     npm install -D tailwindcss postcss autoprefixer vite
+     npx tailwindcss init -p then enter
+    
+    after this we got package post tailwind modules
+
+    then go to tailwind.config.js and write * in content
+    then go to package.json and write
+
+    "scripts": {
+    "start": "vite"
+    },
+
+    create main.css 
+    and write 
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+
+
+
+    use npm run start to start
+
+
+
+
+
+
+
+
+
+
+    github
+
+    git init 
+    git add .
+    git commit -m "Deployment"
+    copy git remote link  -->git remote add origin https://github.com/Harniman-Singh/Razorpay_Clone.git
+    git push -u origin master
